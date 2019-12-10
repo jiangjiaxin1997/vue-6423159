@@ -2,6 +2,7 @@
   <div id="app">
     <Header></Header>
     <Tab></Tab>
+    <router-view></router-view>
   </div>
 </template>
 <script>
@@ -13,17 +14,6 @@
 
 </script>
 <style lang="less">
-  Header{
-    height: 44px;
-    width: 375px;
-    background: cadetblue;
-    color: yellow;
-  }
-  Tab{
-    height: 44px;
-    width: 375px;
-    background: black;
-    color: yellow;
-  }
+
 
 </style>
