@@ -1,0 +1,22 @@
+//样式封装
+.w(@px){
+  width: unit(@px/@remSize,rem);
+}
+.h(@px){
+height: unit(@px/@remSize,rem);
+}
+.t_c(){
+  text-align: center;
+}
+.l_h(@px){
+  line-height: unit(@px/@remSize,rem);
+}
+//固定布局
+.fixed(@top,@left,@bottom,@right,@color){
+  position: fixed;
+  top: unit(@top/@remSize,rem);
+  bottom: unit(@bottom/@remSize,rem);
+  left: unit(@left/@remSize,rem);
+  right:unit(@right/@remSize,rem);
+  background:@color ;
+}
